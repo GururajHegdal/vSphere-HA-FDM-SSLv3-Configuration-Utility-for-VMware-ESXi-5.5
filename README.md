@@ -23,8 +23,8 @@ Go through "vSphere-HA-FDM-SSL-Config-README.pdf" for details on the utility.
 * Import files under the _src/com/vmware/fdmsecprotomgmt_ folder into your IDE.
 * Required libraries are embedded within Runnable-Jar/fdmsecprotomgmt.jar, extract & import the libraries into the project.
 * Run the utility from 'RunApp' program by providing arguments like:   
-  For enabling SSLv3: _--vsphereip 1.2.3.4  --username adminUser --password dummyPasswd --hostsinfofile <pathToHostsListfile> enablessl_  
-  For disabling SSLv3: _--vsphereip 1.2.3.4  --username adminUser --password dummyPasswd --hostsinfofile <pathToHostsListfile> disablessl_   
+  For enabling SSLv3: _--vsphereip 1.2.3.4  --username adminUser --password dummyPasswd --hostsinfofile 'pathToHostsListfile' enablessl_  
+  For disabling SSLv3: _--vsphereip 1.2.3.4  --username adminUser --password dummyPasswd --hostsinfofile 'pathToHostsListfile' disablessl_   
  
 ##### Run from Pre-built Jars
 * Copy/Download the _fdmsecprotomgmt.jar_ from Runnable-jar folder (from the uploaded file) and on to local drive folder say _c:\SecurityProtoMgmt_

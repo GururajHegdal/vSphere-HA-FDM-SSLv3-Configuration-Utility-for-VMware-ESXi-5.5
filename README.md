@@ -27,8 +27,8 @@ Go through "vSphere-HA-FDM-SSL-Config-README.pdf" for details on the utility.
   For disabling SSLv3: _--vsphereip 1.2.3.4  --username adminUser --password dummyPasswd --hostsinfofile <pathToHostsListfile> disablessl_   
  
 ##### Run from Pre-built Jars
-* Copy/Download the _fdmsecprotomgmt.jar_ from Runnable-jar folder (from the uploaded file) and unzip on to local drive folder say c:\SecurityProtoMgmt
+* Copy/Download the _fdmsecprotomgmt.jar_ from Runnable-jar folder (from the uploaded file) and on to local drive folder say _c:\SecurityProtoMgmt_
 * Open a command prompt and cd to the folder, lets say
-cd SecurityProtoMgmt
+_cd c:\SecurityProtoMgmt_
 * Run a command like shown below to see various usage commands,  
-C:\SecurityProtoMgmt>java -jar fdmsecprotomgmt.jar --help
+_C:\SecurityProtoMgmt>java -jar fdmsecprotomgmt.jar --help_
